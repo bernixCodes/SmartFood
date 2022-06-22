@@ -132,6 +132,11 @@ nav{
     background: var(--color-primary) ;
 }
 
+.window-scroll{
+    background: var(--color-primary);
+    border-bottom: 1px solid var(--color-white);
+    box-shadow: 0 1rem 1rem var(--color-primary-variant) ;
+}
 .nav__container{
     display: flex;
     justify-content: space-between;
@@ -506,7 +511,7 @@ header p{
         flex-direction: column;
         gap: 0;
         z-index: 3;
-        /* display: none; */
+        display: none;
     }
     .nav__items li{
         width: 100%;
@@ -541,7 +546,7 @@ header p{
         color: var(--color-white);
         cursor: pointer;
     }
-    nav button.close-btn{
+    nav button#close-btn{
         display: none;
     }
     nav button i{
